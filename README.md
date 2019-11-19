@@ -1,4 +1,4 @@
-# AsciiVieo
+# AsciiVideo
 
 Project for convert images to ascii  
 --------------------------------------  
