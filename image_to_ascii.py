@@ -42,5 +42,10 @@ def main(_img, size=NEW_WIDTH):
 
 
 if __name__ == '__main__':
-    image = open_image("my_image.png")
+    import sys
+    try:
+        filename = sys.argv[1]
+    except:
+        filename = "my_image.png"
+    image = open_image(filename)
     main(image, size=600)
